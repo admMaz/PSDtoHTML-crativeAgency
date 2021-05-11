@@ -1,0 +1,337 @@
+                                                body {
+                                                margin: 0;
+                                                padding: 0;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                                color: #838383;
+                                            }
+                                            
+                                            p {
+                                                margin: 0;
+                                                padding: 0.1em;
+                                                text-align: center;
+                                                font-size: 0.9em;
+                                            }
+                                            
+                                            .icon {
+                                                padding: 1em;
+                                            }
+                                            
+                                            .flex {
+                                                display: flex;
+                                            }
+                                            
+                                            .f-center {
+                                                flex-direction: column;
+                                                justify-content: center;
+                                                align-items: center;
+                                            }
+                                            
+                                            .black-bg {
+                                                background-color: #000000bf;
+                                                width: 100%;
+                                                height: 100%;
+                                            }
+                                            
+                                            .btn {
+                                                margin-top: 3em;
+                                                font-size: 0.75em;
+                                                padding: 1em 1.5em;
+                                                border-radius: 20px;
+                                                border: 2px solid #40cc47;
+                                                color: white;
+                                                text-transform: uppercase;
+                                            }
+                                            
+                                            .container {
+                                                width: 80%;
+                                                margin: 0 auto;
+                                            }
+                                            
+                                            .section-desc {
+                                                text-align: center;
+                                                padding-top: 0.1em;
+                                                margin-top: 0.2em;
+                                            }
+                                            
+                                            .section-title {
+                                                font-size: 2.75em;
+                                                text-transform: uppercase;
+                                                color: #000;
+                                                text-align: center;
+                                                padding-top: 1.5em;
+                                                padding-bottom: 0.25em;
+                                                margin: 0;
+                                            }
+                                            
+                                            .article-title {
+                                                font-size: 1.25em;
+                                                text-transform: uppercase;
+                                                color: #000;
+                                                text-align: center;
+                                                padding-top: 0.5em;
+                                                padding-bottom: 0;
+                                                margin: 0;
+                                            }
+                                            
+                                            .t-left {
+                                                text-align: left;
+                                            }
+                                            
+                                            .p-top {
+                                                padding-top: 1em;
+                                            }
+                                            
+                                            #site-title {
+                                                background: url(img/header-bg.png);
+                                                background-size: cover;
+                                                background-position: center;
+                                                height: 100vh;
+                                            }
+                                            
+                                            nav {
+                                                margin: 0;
+                                            }
+                                            
+                                            .navigation {
+                                                height: 10vh;
+                                                width: 100%;
+                                                position: fixed;
+                                                background-color: #fff;
+                                            }
+                                            
+                                            .main-site-title {
+                                                text-align: center;
+                                                font-size: 4em;
+                                                color: white;
+                                                padding: 0.5em;
+                                                font-family: Arial, Helvetica, sans-serif;
+                                            }
+                                            
+                                            section {
+                                                padding: 2em 0;
+                                            }
+                                            
+                                            #site-title .btn {
+                                                background-color: #40cc47;
+                                            }
+                                            
+                                            #services .wrapper article {
+                                                width: 30%;
+                                                margin: 1.66%;
+                                                flex-direction: column;
+                                            }
+                                            
+                                            #relax .shape {
+                                                width: 30%;
+                                                background-color: #dddddd;
+                                            }
+                                            
+                                            #relax .shape img {
+                                                max-width: 100%;
+                                                float: right;
+                                                padding: 2.5em 0;
+                                            }
+                                            
+                                            #relax article {
+                                                width: 70%;
+                                                background: url(img/relax-bg.png);
+                                                background-size: cover;
+                                                background-position: center;
+                                            }
+                                            
+                                            #relax article .section-title {
+                                                color: #fff;
+                                                text-align: left;
+                                                margin: 0;
+                                                padding-top: 0
+                                            }
+                                            
+                                            #relax .content {
+                                                padding: 3em;
+                                            }
+                                            
+                                            .section-title span {
+                                                color: #40cc47;
+                                            }
+                                            
+                                            .thick {
+                                                width: 25px;
+                                                height: 25px;
+                                                margin-right: 1em;
+                                            }
+                                            
+                                            .div .btn {
+                                                background-color: #40cc47;
+                                            }
+                                            
+                                            .btn-area .btn {
+                                                margin-top: 5em;
+                                            }
+                                            
+                                            .div {
+                                                height: 2.5em;
+                                                align-items: center;
+                                                margin: 0;
+                                                padding: 0;
+                                            }
+                                            
+                                            #relax article p {
+                                                text-align: left;
+                                                padding-bottom: 1em;
+                                            }
+                                            
+                                            #project .wrapper .left {
+                                                width: 50%;
+                                            }
+                                            
+                                            #project .wrapper .right {
+                                                width: 50%;
+                                                background: url(img/isometric.png);
+                                                background-size: cover;
+                                                background-position: center;
+                                            }
+                                            
+                                            .left .container {
+                                                width: 60%;
+                                            }
+                                            
+                                            .left .container .article-title {
+                                                padding-bottom: 1em;
+                                            }
+                                            
+                                            .text {
+                                                padding-top: 2em;
+                                            }
+                                            
+                                            #project .div {
+                                                padding: 1.5em 0;
+                                            }
+                                            
+                                            #project h3 {
+                                                color: #000;
+                                                padding: 0;
+                                                margin: 0;
+                                            }
+                                            
+                                            #project h5 {
+                                                padding: 0;
+                                                margin: 0;
+                                            }
+                                            
+                                            .circle {
+                                                width: 45px;
+                                                height: 45px;
+                                                padding: 0.75em;
+                                                border: 3px solid #000;
+                                                border-radius: 50%;
+                                                align-items: center;
+                                                justify-content: center;
+                                            }
+                                            
+                                            .basket {
+                                                width: 40px;
+                                                height: 35px;
+                                            }
+                                            
+                                            .laptop {
+                                                width: 45px;
+                                                height: 35px;
+                                            }
+                                            
+                                            .lock {
+                                                width: 30px;
+                                                height: 40px;
+                                            }
+                                            
+                                            .icon-desc {
+                                                padding-left: 1.5em;
+                                            }
+                                            
+                                            .view {
+                                                color: #40cc47;
+                                                border: none;
+                                                font-weight: 600;
+                                                font-size: 1em;
+                                                padding: 0;
+                                                margin-top: 1em;
+                                            }
+                                            
+                                            #culture {
+                                                background-color: #dddddd;
+                                            }
+                                            
+                                            #culture .wrapper article {
+                                                width: 30%;
+                                                margin: 1.66%;
+                                            }
+                                            
+                                            #culture .circle {
+                                                padding: 1.5em;
+                                                border-color: #888888;
+                                            }
+                                            
+                                            #culture .article-title {
+                                                padding-bottom: 0.25em;
+                                            }
+                                            
+                                            .row {
+                                                width: 80%;
+                                                margin: 3em auto;
+                                                justify-content: space-around;
+                                                align-items: center;
+                                            }
+                                            
+                                            .row .circle {
+                                                width: 170px;
+                                                height: 170px;
+                                                background-color: #dddddd;
+                                                border: none;
+                                            }
+                                            
+                                            .row .opinion {
+                                                width: 650px;
+                                                height: 200px;
+                                                background-color: #dddddd;
+                                            }
+                                            
+                                            .opinion figcaption {
+                                                color: #40cc47;
+                                                text-align: center;
+                                            }
+                                            
+                                            #clients blockquote {
+                                                padding: 1em;
+                                                margin: 0;
+                                                text-align: center;
+                                            }
+                                            
+                                            #contact {
+                                                background-color: #40cc47;
+                                                height: 200px;
+                                                width: 100%;
+                                                justify-content: center;
+                                                align-items: center;
+                                                flex-direction: column;
+                                            }
+                                            
+                                            #contact h2 {
+                                                color: white;
+                                            }
+                                            
+                                            #contact .btn {
+                                                font-size: 1em;
+                                                font-weight: 600;
+                                                border: 1px solid #fff;
+                                                padding: 1em 1.2em;
+                                                color: #fff;
+                                                background-color: #40cc47;
+                                                border-radius: 5px;
+                                            }
+                                            
+                                            @media (max-width: 480px) {
+                                                .wrapper {
+                                                    flex-direction: column;
+                                                }
+                                                #services .wrapper article {
+                                                    width: 90%;
+                                                }
